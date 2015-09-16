@@ -1,0 +1,11 @@
+
+.alert-danger{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+#val_button{
+	border-top-style: underline;
+	padding-top: 30px;
+}

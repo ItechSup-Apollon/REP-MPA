@@ -1,7 +1,8 @@
 <?php include("include/header.tpl"); ?>
 
+<h3>Nous avons un portefeuille de <?php echo count($table); ?> contacts</h3>
 
-<table>
+<table class="table table-striped">
 	<tr>
 		<th>Nom</th>
 		<th>Prenom</th>
@@ -18,7 +19,5 @@
 	</tr>		
 	<?php endforeach;?>
 </table>
-
-<a href="index.php">HOME</a>
 
 <?php include("include/footer.tpl"); ?>

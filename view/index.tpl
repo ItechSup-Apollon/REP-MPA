@@ -1,18 +1,11 @@
 <?php include("include/header.tpl"); ?>
 
-<form action="find.php" method="post">
-	<input type="text" name="requete" placeholder="Rechercher...">
-	<input type="submit">
-</form>
-
-<form>
-	<table>
-		<tr>
-			<td><a href="signup.php">Enregistrer nouveau contact</a></td>
-			<td><a href="users.php">Liste des contacts enregistrés</a></td>
-		</tr>
-	</table>
-</form>
-		
+<div class="row">
+	<div class="col-md-4 col-md-offset-4">
+		<a href="signup.php" class="btn btn-primary btn-lg btn-block" role="button">Nouveau contact</a>
+		<a href="users.php" class="btn btn-default btn-lg btn-block" role="button">Liste des contacts</a>
+	</div>
+</div>
 
 <?php include("include/footer.tpl"); ?>
+
